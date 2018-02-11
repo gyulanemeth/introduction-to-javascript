@@ -1,100 +1,69 @@
 # Introduction to Javascript
 Course material @ PPKE - ITK
 
+## Requirements
+ - 2 tests
+ - 1 project work
+ - max. 3 absence
 
-## Lesson1: Variables, types and Values in Javascript
-
- - EcmaScript & Javascript
- - ES5
- - ES6 / ES2015
-
-### Types in Javascript
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
-
-#### Primitive Types
- - number
- - string
- - boolean
- - null
- - undefined
- - symbol (ES2015)
-
- - typeof operator
- 
-#### Reference Types
- - Objects
- - Arrays are also objects
- - Functions are also objects
- 
- - instanceof operator
-
-### Arrays
- - push, pop, unshift, shift
- - slice, splice
-
-
-### Functions
-
-### Declaring Variables
- - var
- - let (ES2015)
- - const (ES2015)
- 
-## Lesson2: Introduction to the DOM
- - getElementById, getElementByClassName, etc.
- - createElement
- - createTextNode
-
-## Lesson2: Object Creation Methods
-
- - Prototypes
- - Prototype based inheritance
- - Factory Methods
- - Object.create
- - "Classes" (ES2015)
- 
- - this
-
-## Lesson3: Functional Javascript
- 
- - Functions as objects
- - Callbacks
- - Closures
- - Function combination
- - The module pattern
- - Array functions
-   - forEach
-   - indexOf
-   - map
-   - reduce
-   
-
-## Lesson4: The DOM
-
-## Lesson5: The DOM 2
-
-## Lesson6: Test 1
-
-## Lesson7: ES6
-
- - var, let, const
- - "classes"
- - various other new features
- 
-## Lesson8: Async in Modern Javascript
-
- - callbacks
- - the async lib
- - promises
- - async-await
- 
-## Lesson9: Node.js + websockets?
-
-## Lesson10: Real-Time Game?
-
-## Lesson11: Test 2
-
-## Lesson12: Various Awesome Topics
-
-
+## Lessons
+ - Lesson 01: **The Basics of Javascript** - 2018. 02. 14.
+   - history, standards (ES5, ES6/ES2015)
+   - event driven programming
+   - types
+   - control flow
+   - arrays
+   - functions: method definitions, arrow functions, default parameters, rest parameters
+   - variable declaration & scoping (var, let, const)
+ - Lesson 02: **Introduction to the DOM API** - 2018. 02. 21.
+   - HTML & the DOM
+   - querying elements: getElementById, getElementsByClassName, etc.
+   - creating elements: createElement, createTextNode
+   - manipulating elements: appendChild, attr, style
+   - events & event handling
+ - Lesson 03: **Object Creation in Javascript** - 2018. 02. 28.
+   - prototypes
+   - prototype based inheritance
+   - "Classes"
+   - factory methods
+   - Object.create
+   - The misterious **this** keyword
+     - apply
+     - call
+     - bind
+ - Lesson 04: **Functional Javascript** - 2018. 03. 07.
+    - Functions as objects
+    - Callbacks
+    - Closures
+    - Function combination
+    - The module pattern
+    - Array functions
+      - forEach
+      - indexOf
+      - map
+      - reduce
+ - Lesson 05 **Practice: Creating a Kan-Ban App** - 2018. 03. 14.
+   - How to start planning an application
+   - Figuring out what technologies to use
+   - Composition over inheritance
+ - Lesson 06 **TEST 1** - 2018. 03. 21.
+ - Lesson 07 **Introduction to Node.js and Express.js**- 2018. 04. 11.
+   - Node.js basics
+   - The fs lib
+   - Express.js
+   - Sending requests from the client-side
+ - Lesson 08 **Async in Modern Javascript**- 2018. 04. 18.
+   - callbacks
+   - the async lib
+   - promises
+   - async-await
+ - Lesson 09 **Various New Features in ES6** - 2018. 04. 25.
+   - Built-in Data Structures
+   - New Language Features
+   - Syntactic Sugar
+ - Lesson 10 **Practice: Real-time Kan-Ban App** - 2018. 05. 02.
+ - Lesson 11 **TEST 2** - 2018. 05. 09.
+ - Lesson 12 **Scaling Up**- 2018. 05. 16.
+   - NoSQL Databases
+   - In-memory DBs
+   - Cloud-ready applications
