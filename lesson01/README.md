@@ -1,4 +1,4 @@
-# Lesson1: Variables, types and Values in Javascript
+# Lesson1: The Very Basics of Javascript
 
 In the first lesson we discovered the basics of Javascript. It's the most popular programming language at the moment, you can use it in browsers but also on the server side.
 
@@ -186,11 +186,43 @@ for (let prop in obj) {
 ```
 
 ## Arrays
- - push, pop, unshift, shift
- - slice, splice
 
+You can store any types of values in [Javascript arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). They have many useful array functions, for example:
+ - push,
+ - pop,
+ - unshift
+ - shift
+ - slice
+ - splice
+ - indexOf
+
+```javascript
+//a simple example
+let testArray = ["x", 4];
+testArray.push({});
+
+for (let idx = 0; idx < testArray.length; idx += 1) {
+    console.log(testArray[idx]);
+}
+```
 
 ## Functions
+
+You have already created some functions, but I will show you some simple examples here. The fourth lesson will be an deepdrive into Javascript functions. You will love it.
+
+```javascript
+function x() {
+
+}
+
+//you can also store functions in variables
+const y = function() {
+
+}
+
+//the neat new arrow function syntax in ES2015
+const z = param => console.log("This is an arrow function", param);
+```
 
 ## Joke of the day
 
