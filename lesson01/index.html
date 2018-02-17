@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Console ToDo List
+        </title>
+    </head>
+    <body>
+        <script>
+            //we assume that there will be todo objects in the array with label and done properties.
+            const todos = [];
+
+            function addTodo(todo) {
+                todo = todo || {};
+
+                if (typeof todo.label !== "string") {
+                    throw new Error("todo.label has to be a string.");
+                }
+
+                if (typeof todo.done !== "boolean") {
+                    throw new Error("todo.done has to be a boolean");
+                }
+
+                //this might look a little bit strange, but don't worry, it will be crystal clear
+                todo.remove = function() {
+                    const index = todos.indexOf(todo);
+                    todos.splice(index, 1);
+                };
+
+                todos.push(todo);
+            }
+
+            function printTodos() {
+                console.log("Todos:")
+                for (let idx = 0; idx < todos.length; idx += 1) {
+                    const act = todos[idx];
+
+                    console.log(" - " + act.label + (act.done ? "✓" : ""));
+                }
+            }
+            
+            for(let idx = 0; idx < 10; idx += 1) {
+                addTodo({
+                    label: "todo" + idx,
+                    done: idx % 3 === 0
+                });
+            }
+
+            printTodos();
+
+            //let's remove some random elements
+            todos[Math.floor(Math.random() * todos.length)].remove(); //remember, we defined the remove function when we added the todos...
+            todos[Math.floor(Math.random() * todos.length)].remove();
+            todos[Math.floor(Math.random() * todos.length)].remove();
+
+            printTodos();
+        </script>
+    </body>
+</html>

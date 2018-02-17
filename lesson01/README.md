@@ -9,6 +9,8 @@ The standard of Javascript is called [ECMAScript](https://en.wikipedia.org/wiki/
 
 In the following sections I am not going to write a lot, I rather share some great links which you can follow to learn more about the concepts. Most of the things in this lesson can be done with the developer tools of Chrome. I will share some snippets which you can copy & paste there to figure out how these things work in JS.
 
+After checking out this README.md file, please check out the index.html as well.
+
 ## Exploring the Type System in Javascript
 
 https://developer.mozilla.org/hu/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
