@@ -79,7 +79,76 @@ We are going to explore Javascript's object system and inheritance in the third 
 null || undefined || 0 || false || [] //returns []
 ```
 
+## Variables
+globals - do NOT use globals.
+
+```javascript
+x = "my global variable";
+//this variable is accessible through the global object as well!
+window.x;
+x;
+```
+**var** declares a function scoped variable
+```javascript
+//if you are not inside a function, it will be a global variable
+var x = "my function scoped variable";
+window.x;
+
+function testFunction() {
+    var y = "it's really bound to the function";
+}
+
+testFunction();
+
+y; //Uncaught ReferenceError: y is not defined
+
+
+//function scoped variables are visible even outside the block they were defined. It is also called hoisting.
+function testFunction2() {
+    if (true) {
+        var x = "inside an if";
+    }
+    console.log(x);
+
+    for (var idx = 0; idx < 3; idx += 1) {
+        console.log(idx);
+    }
+    console.log("I can see you here as well!!!", idx);
+}
+
+testFunction2();
+```
+
+**let** (ES2015) declares a block scoped variable
+```javascript
+function testFunction3() {
+    if (true) {
+        let x = "inside an if";
+    }
+    console.log(x);
+}
+
+function testFunction4() {
+    for (let idx = 0; idx < 3; idx += 1) {
+        console.log(idx);
+    }
+    console.log("I can see you here as well!!!", idx);
+}
+
+testFunction3();
+testFunction4();
+```
+ 
+**const** (ES2015) declares a constant
+
+ ```javascript
+const x = 3;
+x = 4; //Uncaught TypeError: Assignment to constant variable.
+```
+
 ## Objects
+
+In this lesson we will only cover the basics of objects. As I mentioned earlier, the whole third lesson is dedicated to this topic.
 
 ## Arrays
  - push, pop, unshift, shift
@@ -88,8 +157,8 @@ null || undefined || 0 || false || [] //returns []
 
 ## Functions
 
-## Declaring Variables
- - globals
- - var
- - let (ES2015)
- - const (ES2015)
+## Joke of the day
+
+```javascript
+defined;
+```
