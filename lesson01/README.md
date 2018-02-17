@@ -125,14 +125,14 @@ function testFunction3() {
     if (true) {
         let x = "inside an if";
     }
-    console.log(x);
+    console.log(x); //error
 }
 
 function testFunction4() {
     for (let idx = 0; idx < 3; idx += 1) {
         console.log(idx);
     }
-    console.log("I can see you here as well!!!", idx);
+    console.log("I can see you here as well!!!", idx); //error
 }
 
 testFunction3();
@@ -149,6 +149,41 @@ x = 4; //Uncaught TypeError: Assignment to constant variable.
 ## Objects
 
 In this lesson we will only cover the basics of objects. As I mentioned earlier, the whole third lesson is dedicated to this topic.
+
+Objects are composed of key-value pairs, where the keys are strings the values can be any JS values. (Except symbol.)
+
+```javascript
+let obj = {};
+let obj2 = {
+    prop1: "xyz",
+    prop2: function() {
+        console.log(obj2.prop1);
+    }
+};
+
+//you can add new props to objects
+obj.testProp = 42;
+
+//and you can remove props
+delete obj.testProp;
+
+
+//objects are reference types, so the === comparision compares the references
+let obj3 = {
+    a: "x"
+};
+
+let obj4 = {
+    a: "x"
+};
+
+obj3 === obj4; //false
+
+//cou can iterate over the keys of objects
+for (let prop in obj) {
+    console.log(prop, obj[prop]);
+}
+```
 
 ## Arrays
  - push, pop, unshift, shift
