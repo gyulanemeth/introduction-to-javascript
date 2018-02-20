@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>js rulez</title>
+        <style>
+            .done {
+                text-decoration: line-through;
+                text-decoration-color: rgb(221, 31, 31);
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var todos = [];
+
+            function addTodo(todo) {
+                todo = todo || {};
+                if(typeof todo.label !=="string") {
+                    throw new Error("todo.label must be a string");
+                }
+                if(typeof todo.done !== "boolean") {
+                    throw new Error("todo.done must be boolean");
+                }
+                todos.push(todo);
+            }
+
+            function printTodos() {
+                for(var idx = 0; idx < todos.length; idx += 1) {
+                    var actTodo = todos[idx]; //const az aktuális blokkhoz scopeol (var: function scoping)
+                    console.log(actTodo.label, actTodo.done ? "☑" : "");
+                }
+                console.log("my var", actTodo);
+            }
+
+            function printTodosHtml() {
+                document.writeln("<h1>My Awesome Todos</h1>");
+                for(var idx = 0; idx < todos.length; idx += 1) {
+                    var actTodo = todos[idx];
+                    var className = "";
+
+                    if(actTodo.done) {
+                        className = "done";
+                    }
+                    document.writeln("<div class='" +  className + "'>" + actTodo.label + actTodo.done + "</div>")
+                    console.log(actTodo.label, actTodo.done ? "☑" : "");
+                }
+            }
+
+            addTodo({
+                label: "Learn to code",
+                done: false
+            });
+
+            addTodo({
+                label: "Learn to code MOAR",
+                done: false
+            });
+
+            addTodo({
+                label: "Learn to code MOAR, huhh",
+                done: true
+            });
+
+            printTodos();
+            printTodosHtml();
+        </script>
+    </body>
+</html>
