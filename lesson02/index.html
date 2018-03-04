@@ -21,23 +21,110 @@
                 border: 1px solid #333333;
                 border-radius: 5px;
             }
+
+            .todo {
+                cursor: hand;
+            }
         </style>
     </head>
     <body>
         <div id="simple-todo-list">
             <h1>Simple Todo List</h1>
 
-            <div>
-                <div class="todo">
-                    <div class="label">Todo1</div>
-                    <div class="buttons">
-                        <button>Remove</button>
-                    </div>
-                </div>
+            <div class="todos">
+                
             </div>
 
-            <input placeholder="Add ToDo"/>
-            <button>Add</button>
+            <input class="addTodoInput" placeholder="Add ToDo"/>
+            <button class="addTodoButton">Add</button>
         </div>
+
+        <script>
+            const todos = [];
+
+            const todoListRoot = document.getElementById("simple-todo-list");
+            const todosElem = todoListRoot.getElementsByClassName("todos")[0];
+
+            function addTodo(todo) {
+                todo = todo || {};
+
+                todos.push(todo);
+
+                const todoDiv = document.createElement("div");
+                todoDiv.classList.add("todo");
+                const labelDiv = document.createElement("div");
+                const labelText = document.createTextNode(todo.label);
+
+                todoDiv.appendChild(labelDiv);
+                labelDiv.appendChild(labelText);
+
+                if (todo.done) {
+                    labelDiv.style.textDecoration = "line-through";
+                }
+
+                todoDiv.addEventListener("click", function() {
+                    todo.done = !todo.done;
+
+                    if (todo.done) {
+                        labelDiv.style.textDecoration = "line-through";
+                    } else {
+                        labelDiv.style.textDecoration = "";
+                    }
+
+                    saveSnapshotToLocalStorage();
+                });
+
+                todosElem.appendChild(todoDiv);
+                saveSnapshotToLocalStorage();
+            }
+
+            function saveSnapshotToLocalStorage() {
+                localStorage.setItem("super-todos", JSON.stringify(todos));
+            }
+
+            function addNewTodo() {
+                const input = document.getElementById("simple-todo-list").getElementsByClassName("addTodoInput")[0];
+
+                const value = input.value.trim();
+
+                if (!value) {
+                    input.style.border = "1px solid red";
+
+                    setTimeout(function() {
+                        input.style.border = "";
+                    }, 2000);
+
+                    return;
+                }
+
+                addTodo({
+                    label: value,
+                    done: false
+                });
+
+                input.value = "";
+            }
+
+            let savedTodos = localStorage.getItem("super-todos");
+
+            if (savedTodos) {
+                savedTodos = JSON.parse(savedTodos);
+
+                for (let idx = 0; idx < savedTodos.length; idx += 1) {
+                    addTodo(savedTodos[idx]);
+                }
+            }
+
+            const addButton = document.getElementById("simple-todo-list").getElementsByClassName("addTodoButton")[0];
+            addButton.addEventListener("click", addNewTodo);
+
+            saveSnapshotToLocalStorage();
+
+
+            //Exercises:
+            //add todo on enter
+            //Focus should be set back to the input
+            //Remove element
+        </script>
     </body>
 </html>
