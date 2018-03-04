@@ -6,9 +6,9 @@ This video series is great, you should definitely watch it. That is why I will o
 
 The most important concepts of this lesson are:
  - Functions are Objects!
-  - you can add properties to functions
-  - you can pass them to other functions as function parameters
-  - you can return functions from funtions
+   - you can add properties to functions
+   - you can pass them to other functions as function parameters
+   - you can return functions from funtions
  - Function Scoping (vs. Block scoping)
  - Closures
  - Higher-Order Functions
