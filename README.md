@@ -21,7 +21,7 @@ Course material @ PPKE - ITK
    - creating elements: createElement, createTextNode
    - manipulating elements: appendChild, attr, style
    - events & event handling
- - Lesson 03: **Functional Javascript** - 2018. 03. 07.
+ - Lesson 03: **Functional Javascript** - 2018. 02. 28.
     - Functions as objects
     - Callbacks
     - Closures
@@ -31,7 +31,7 @@ Course material @ PPKE - ITK
       - indexOf
       - map
       - reduce
- - Lesson 04: **Object Creation in Javascript** - 2018. 02. 28.
+ - Lesson 04: **Object Creation in Javascript** - 2018. 03. 07.
    - prototypes
    - prototype based inheritance
    - "Classes"
