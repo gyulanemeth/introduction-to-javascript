@@ -38,6 +38,8 @@ The base style is heavy metal, all of them are derived from this style.
    - and the Object.create function.
  - Show how inheritance works in Javascript
 
+Here are some example styles and bands. (You don't have to use them all.)
+
  - Heavy Metal:
     - Iconic band: Iron Maiden
     - Other example bands: Black Sabbath, Metallica
