@@ -4,14 +4,14 @@
 
 Please check the following things in your exam. I might have forgotten to give you some points.
 
- - 1) max 2 points
+ 1) max 2 points
     - Works or not + uses vars only.
     - If you get 0 point to this excercise, then you get 0 to the whole exam.
- - 2) max 5 points
+ 2) max 5 points
     - basic functionality with state changes 2 points
     - stats with functional awesomeness (filter, map, reduce, etc.) 1 point
     - load & save state 2 points
- - 3) max 3 points
+ 3) max 3 points
     - Creates a nice prototype chain 1 point
     - Uses constructor function properly 0.5 point
     - Uses the class keyword properly 0.5 point
@@ -21,12 +21,12 @@ Please check the following things in your exam. I might have forgotten to give y
 
 ## Grades
 
-[0-5)  -> 1
-[5-6)  -> 2
-[6-7)  -> 3
-[7-8)  -> 4
-[8-9)  -> 5
-[9-10] -> 5+
+ - [0-5)  -> 1
+ - [5-6)  -> 2
+ - [6-7)  -> 3
+ - [7-8)  -> 4
+ - [8-9)  -> 5
+ - [9-10] -> 5+
 
 ## Results
 
