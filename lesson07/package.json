@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-experiments",
+  "version": "0.0.0",
+  "description": "Node.js is awesome!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gyulanemeth/introduction-to-javascript.git"
+  },
+  "author": "GY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gyulanemeth/introduction-to-javascript/issues"
+  },
+  "homepage": "https://github.com/gyulanemeth/introduction-to-javascript#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
