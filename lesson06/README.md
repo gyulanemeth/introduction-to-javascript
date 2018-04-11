@@ -38,12 +38,12 @@ Balogh Dániel       |   S2ZXOU  |   2   |   5   |   1   |   8   |   5   |
 Lipka Boldizsár     |   CK5R7R  |   2   |   4   |   1   |   7   |   4   |
 Botos Csaba         |   D35WQ8  |   2   |   4.9 |   0.1 |   7   |   4   | Stats could have been nicer, but it's ok. (-0.1p)
 Kóta Fülöp          |   E872AI  |   2   |   2   |   2.5 |   6.5 |   3   |
+Gubcsi Gergely      |   ?       |   2   |   3.5 |   0   |   5.5 |   2   |
 Szarvas Balázs      |   S1STAC  |   2   |   2   |   1.5 |   5.5 |   2   |
 Rudner Tamás        |   IBYG8Z  |   2   |   3   |       |   5   |   2   |
 Szűcs Zoltán        |   O7G8KX  |   2   |   2   |       |   4   |   1   | Almost there.
 Glavinics Judit     |   WP3QOW  |   2   |   2   |   0   |   4   |   1   | Almost there.
 Mátyási Márk        |   ?       |   2   |   2   |       |   4   |   1   | Almost there.
-Gubcsi Gergely      |   ?       |   2   |   1   |   0   |   3   |   1   |
 Bogdány Péter       |   HFKG72  |   2   |   1   |   0   |   3   |   1   |
 Halász Viktor       |   B2SLFN  |   2   |   1   |       |   3   |   1   |
 Komporday András    |   RNZ4N0  |   0   |       |       |       |   0   | :(
