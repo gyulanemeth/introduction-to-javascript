@@ -10,7 +10,11 @@ https://expressjs.com/en/starter/static-files.html
 ### EJS as a templating language for express
 
 http://robdodson.me/how-to-use-ejs-in-express/
-https://scotch.io/tutorials/use-ejs-to-template-your-node-application
+https://scotch.
+
+io/tutorials/use-ejs-to-template-your-node-application
+
+http://ejs.co/
 
 ### Express routers
 

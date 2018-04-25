@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title><%= title %></title>
+    </head>
+    <body>
+        <% include ./partials/header %>
+
+        <p>
+            about me. I like JS.
+        </p>
+        <ul>
+            <% for(let idx = 0; idx < favProgLangs.length; idx += 1) { %>
+                <li><%= favProgLangs[idx]; %></li>
+            <% } %>
+        </ul>
+
+        <% include ./partials/footer %>
+    </body>
+</html>
