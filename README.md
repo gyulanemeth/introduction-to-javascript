@@ -58,12 +58,20 @@ Course material @ PPKE - ITK
    - promises
    - async-await
  - Lesson 09 **Various New Features in ES6** - 2018. 04. 25.
-   - Built-in Data Structures
-   - New Language Features
-   - Syntactic Sugar
+   - MOAR express.js
+     - static serving
+     - templating languages
+     - routers
+   - Sending requests to the server side
+     - XMLHttpRequest
+     - libs
+     - Fetch API
  - Lesson 10 **Practice: Real-time Kan-Ban App** - 2018. 05. 02.
  - Lesson 11 **TEST 2** - 2018. 05. 09.
  - Lesson 12 **Scaling Up**- 2018. 05. 16.
+   - Built-in Data Structures
+   - New Language Features
+   - Syntactic Sugar
    - NoSQL Databases
    - In-memory DBs
    - Cloud-ready applications
