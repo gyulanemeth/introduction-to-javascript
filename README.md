@@ -57,7 +57,7 @@ Course material @ PPKE - ITK
    - the async lib
    - promises
    - async-await
- - Lesson 09 **Various New Features in ES6** - 2018. 04. 25.
+ - Lesson 09 **MOAR Node.js & Client-Server Communication** - 2018. 04. 25.
    - MOAR express.js
      - static serving
      - templating languages
@@ -66,7 +66,7 @@ Course material @ PPKE - ITK
      - XMLHttpRequest
      - libs
      - Fetch API
- - Lesson 10 **Practice: Real-time Kan-Ban App** - 2018. 05. 02.
+ - Lesson 10 **Practice: Kan-Ban App with Server Side** - 2018. 05. 02.
  - Lesson 11 **TEST 2** - 2018. 05. 09.
  - Lesson 12 **Scaling Up**- 2018. 05. 16.
    - Built-in Data Structures
