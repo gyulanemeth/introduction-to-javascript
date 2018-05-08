@@ -11,8 +11,8 @@ In these excercises you will have to define express routes and you will have to 
 Create a node application, with a static file server, which serves the previously created trello-clone.
 
 The frontend has to communicate with the backend. Create two routes:
- - the first saves the state of your board (handles a HTTP POST request)
- - the second can be used to load the state of your board (handles a HTTP GET request)
+ - the first saves the state of your board (HTTP POST request)
+ - the second can be used to load the state of your board (HTTP GET request)
  
 You basically have to use these routes to save the state of your board instead of localStorage. The routes above can save the state to a file.
 
