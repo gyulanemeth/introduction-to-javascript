@@ -4,6 +4,8 @@ Half of the students writes a replacement test, the other half can proceed with 
 
 ## Excercise: Trello clone with backend
 
+In these excercises you will have to define express routes and you will have to send HTTP requests to those routes from the client side. You can check the notes from previous lessons to solve these tasks.
+
 ### Task1: Save the state of your board on the backend
 
 Create a node application, with a static file server, which serves the previously created trello-clone.
@@ -16,8 +18,19 @@ You basically have to use these routes to save the state of your board instead o
 
 ### Task2: Assign boards to users
 
+Modify your application in a way, that you can associate boards to users. The relationship between them should be N-M, meaning that you can assign multiple users to one board, also, one users may have multiple boards.
+
+Tip: you can store users in a file and the boards in another. Both should be JSON files.
+
+On the frontend, the user should be able to enter their username, and their boards should appear in a list. After clicking on one of the list items, the actual board appears.
+
+You don't have to consider security in this excercise.
+
 ### Task3: Event based trello-clone
 
+You don't have to code this time, just think about how you'd create a system, where the client-sides are synchronized. For example if a user changes a card on a board, the changes will appear on all of the client programs where users are watching the same board.
+
+You can think about emitting events (basically you send requests to your server) and the server-side multicasts those events, so all of the client-side programs can change their state appropriately. (Broadcasting and multicasting will be hanled with websockets later...)
 
 
 ## Replacement Test1 Results
