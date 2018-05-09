@@ -65,21 +65,21 @@ Let's say that we have our database in a file. An example is:
     {
         "author": "xy",
         "url: "http://localhost:3000/xyz.jpeg",
-        "title: "yooooo",
+        "title": "yooooo",
         "tags": ["blue", "nice"],
         "price": 3
     },
     {
         "author": "xy2",
         "url: "http://localhost:3000/xyz.jpeg",
-        "title: "yooooo3",
+        "title": "yooooo3",
         "tags": ["blue", "not-nice"],
         "price": 2
     },
     {
         "author": "xy",
         "url: "http://localhost:3000/xyz.jpeg",
-        "title: "yooooo4",
+        "title": "yooooo4",
         "tags": ["red", "nice"],
         "price": 5
     }
