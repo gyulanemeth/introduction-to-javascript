@@ -60,6 +60,7 @@ The route of the listing page has to be: /
 ### Listing page & image page - 2 points
 
 Let's say that we have our database in a file. An example is:
+```json
 [
     {
         "author": "xy",
@@ -83,6 +84,7 @@ Let's say that we have our database in a file. An example is:
         "price": 5
     }
 ]
+```
 
 The listing page should show you a list with the titles of the images. If you click on it, it has to forward you to the image page.
 
@@ -146,10 +148,12 @@ Send the info in a HTTP POST request.
 
 Data to send:
 
+```json
 {
     "searchFor": "asdf",
     "websites": ["https://index.hu", "https://origo.hu"]
 }
+```
 
 Note: If you haven't completed the previous task, then it's enough to send only one website.
 
