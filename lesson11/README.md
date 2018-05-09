@@ -24,7 +24,7 @@ for (var idx2 = 0; idx2 < functions.length; idx2 += 1) {
 ```
 
 Expected output:
-
+```
 0 yo
 1 yo
 2 yo
@@ -35,6 +35,7 @@ Expected output:
 7 yo
 8 yo
 9 yo
+```
 
 ## Task1: Minimal Stock-photo app. (Max. 7 points)
 
