@@ -113,6 +113,10 @@ For all of the subtasks below, please create a separate folder. For example:
  - Taks2/b
  - etc...
 
+To complete these excercises, please disable web security in your chrome.
+
+https://www.google.hu/search?q=turn+off+cross+origin+chrome&oq=switch+off+cross+orig&aqs=chrome.1.69i57j0l2.29943j0j7&sourceid=chrome&ie=UTF-8
+
 ### A - 1 point
 Fetch the content of a website and count a certain expression in the resulting HTML. Use XMLHttpRequest.
 
