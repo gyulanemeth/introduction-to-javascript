@@ -2,7 +2,8 @@
 
 ## Task0 - 0 points
 
-Disclamer: in this exercise, you are only allowed to use `var`s and you are not allowed to use `let` and `const`. Also, you mustn't use the `with` keyword and you must not replace the functions in the array. (If I put a breakpoint to my console.log, the debugger has to stop there 10 times.)
+Disclamer: in this exercise, you are only allowed to use `var`s and you are not allowed to use `let` and `const`. Also, you mustn't use the `with` keyword and you mustn't write any console.logs in your code.
+
 If you are not able to accomplish this task, then you are failed on this exam.
 
 You can use Node.js to test your program.
