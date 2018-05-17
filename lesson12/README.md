@@ -27,6 +27,8 @@ Task automation: grunt, gulp, etc.
 
 Browserify
 
+Babelify
+
 Static typing: typescript, flow...
 
 
@@ -34,7 +36,8 @@ Static typing: typescript, flow...
 
  - cpu, storage, memory
  - load-balancers
- - in-memory dbs & sessions
+ - in-memory dbs & sessions - redis
+ - message queue - rabbit mq
  - docker
  - microservices
 
