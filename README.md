@@ -3,7 +3,7 @@ Course material @ PPKE - ITK
 
 ## Requirements
  - 2 tests
- - 1 project work
+ - 1 project work (optional)
  - max. 3 absence
 
 ## Lessons
@@ -68,10 +68,36 @@ Course material @ PPKE - ITK
      - Fetch API
  - Lesson 10 **Practice: Kan-Ban App with Server Side** - 2018. 05. 02.
  - Lesson 11 **TEST 2** - 2018. 05. 09.
- - Lesson 12 **Scaling Up**- 2018. 05. 16.
-   - Built-in Data Structures
-   - New Language Features
-   - Syntactic Sugar
+ - Lesson 12 **The Intimidating World of Javascript & Other Web Technologies**- 2018. 05. 16.
+   - HTML5 APIs
+   - Frontend Frameworks & Libs
+   - Testing
+   - Tooling
+   - Cloud & Scaling
    - NoSQL Databases
-   - In-memory DBs
-   - Cloud-ready applications
+
+
+## Results
+
+Name                | Neptun    | Test1 | Test1 - replacement   | Test2 | Test2 - replacement   | "No-replacement Extra"    | Grade
+---                 | ---       | ---   | ---                   | ---   | ---                   | ---                       | ---
+Jász Ádám           |   NOXC1E  | 5+    | -                     | 5+    | -                     | 1                         | 5
+Sulyok András       |   QNMC89  | 5+    | -                     | 5     | -                     | 1                         | 5
+Balogh Dániel       |   S2ZXOU  | 5     | -                     | 2     | 5                     | 0.5                       | 5
+Leichner Dávid      |   L4AYTB  | 0     | 5                     | 1     | 4                     | 0                         | 5
+Botos Csaba         |   D35WQ8  | 4     | -                     | 1     | 5                     | 0.5                       | 5
+Glavinics Judit     |   WP3QOW  | 1     | 5                     | 0     | 4                     | 0                         | 5
+Lipka Boldizsár     |   CK5R7R  | 4     | -                     | 3     | 3                     | 0.5                       | 4
+Kóta Fülöp          |   E872AI  | 3     | -                     | 1     | 3                     | 0.5                       | 4
+Gubcsi Gergely      |   ?       | 2     | -                     | 3     | -                     | 1                         | 4
+Szarvas Balázs      |   S1STAC  | 2     | -                     | 1     | 3                     | 0.5                       | 3
+Rudner Tamás        |   IBYG8Z  | 2     | -                     | 0     | 2                     | 0.5                       | 3
+Mátyási Márk        |   ?       | 2     | -                     | 0     | 4                     | 0                         | 3
+Komporday András    |   RNZ4N0  | 0     | 2                     | 1     | 4                     | 0                         | 3
+Szűcs Zoltán        |   O7G8KX  | 1     | 2                     | 0     | 2                     | 0                         | 2
+Bogdány Péter       |   HFKG72  | 1     | 1                     | 0     | -                     | 0                         | 1
+Halász Viktor       |   B2SLFN  | 1     | -                     | 0     | -                     | 0                         | 1
+Adolf András        |   ?       | 0     | -                     | 0     | 1                     | 0                         | 1
+Lovas Bence         |   I1T2V1  | 0     | 2                     | 0     | 1                     | 0                         | 1
+Velegi István       |   ?       | 0     | 1                     | 0     | -                     | 0                         | 1
+                    |           |       |                       |       |                       |                           | Avg.: 3.21
