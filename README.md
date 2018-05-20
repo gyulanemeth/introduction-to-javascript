@@ -100,4 +100,5 @@ Halász Viktor       |   B2SLFN  | 1     | -                     | 0     | -    
 Adolf András        |   ?       | 0     | -                     | 0     | 1                     | 0                         | 1
 Lovas Bence         |   I1T2V1  | 0     | 2                     | 0     | 1                     | 0                         | 1
 Velegi István       |   ?       | 0     | 1                     | 0     | -                     | 0                         | 1
-                    |           |       |                       |       |                       |                           | Avg.: 3.21
+
+Avg.: 3.21
